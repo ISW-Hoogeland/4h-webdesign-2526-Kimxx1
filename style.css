@@ -55,4 +55,10 @@ footer{
    grid-area: footer;
 }
 
+:root {
+    --bg-light: #b7e7b9;
+    --text-dark: #ffffff;
+    --font-main: 'Segoe UI', sans-serif;
+
+
 
