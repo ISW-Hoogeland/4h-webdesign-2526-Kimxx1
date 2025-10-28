@@ -58,7 +58,10 @@ footer{
 :root {
     --bg-light: #b7e7b9;
     --text-dark: #ffffff;
-    --font-main: 'Segoe UI', sans-serif;
+    --font-main: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 
