@@ -35,6 +35,13 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
+:root {
+    --bg-light: #c0c2b2;
+    --text-dark: #ffffff;
+    --font-main: "Amarante", serif;
+  --weight: 400;
+  --style: normal;
+}
 
 body{
    display:grid;
@@ -44,24 +51,22 @@ body{
    "footer footer";
    grid-template-columns:1fr 3fr;
    grid-template-rows:120px 1fr 60px;
+   background-color: var(--bg-light);
 }
 header{
    grid-area: header;
+   background-color: #0E1B34;
+   
 }
 nav{
    grid-area: nav;
+   background-color: var(--bg-light);
 }
 footer{
    grid-area: footer;
+   background-color: #0E1B34;
 }
 
-:root {
-    --bg-light: #b7e7b9;
-    --text-dark: #ffffff;
-    --font-main: "Amarante", serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 
 
