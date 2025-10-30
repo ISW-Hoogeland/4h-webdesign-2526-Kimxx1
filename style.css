@@ -41,13 +41,14 @@
     --font-main: "Amarante", serif;
   --weight: 400;
   --style: normal;
+  --blue:  #0E1B34
 }
 
 body{
    display:grid;
    grid-template-areas:
    "header header"
-   "main nav"
+   "nav main"
    "footer footer";
    grid-template-columns:1fr 3fr;
    grid-template-rows:120px 1fr 60px;
@@ -55,17 +56,44 @@ body{
 }
 header{
    grid-area: header;
-   background-color: #0E1B34;
+   background-color: var(--blue);
+   color: var(--text-dark);
+   margin: 12px;
+   border-radius: 10px;
    
 }
 nav{
    grid-area: nav;
-   background-color: var(--bg-light);
+   background-color: var(--text-dark);
+   margin: 12px;
+   height: 350px;
+   padding: 10px;
+  border: 50px;
+  border-radius: 10px;
 }
+
+nav ul{
+   list-style: none;
+
+}
+
+nav a {
+   color: var(--blue);
+}
+
+nav a:hover {
+   color: red;
+}
+
 footer{
    grid-area: footer;
-   background-color: #0E1B34;
+   background-color: var(--blue);
+   margin: 12px;
+   padding: 25px;
+   border: 20px;
+   border-radius: 10px;
 }
+
 
 
 
