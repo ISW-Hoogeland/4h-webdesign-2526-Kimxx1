@@ -60,12 +60,13 @@ header{
    color: var(--text-dark);
    margin: 12px;
    border-radius: 10px;
+   text-align: center;
    
 }
 nav{
    grid-area: nav;
    background-color: var(--text-dark);
-   margin: 12px;
+   margin: 17px;
    height: 350px;
    padding: 10px;
   border: 50px;
@@ -89,10 +90,15 @@ footer{
    grid-area: footer;
    background-color: var(--blue);
    margin: 12px;
-   padding: 25px;
+   padding: 40px;
    border: 20px;
    border-radius: 10px;
+   color: var(--text-dark);
+text-align: center;
+
 }
+
+
 
 
 
