@@ -53,6 +53,7 @@ body{
    grid-template-columns:1fr 3fr;
    grid-template-rows:120px 1fr 60px;
    background-color: var(--bg-light);
+
 }
 header{
    grid-area: header;
@@ -86,6 +87,11 @@ nav a:hover {
    color: red;
 }
 
+main{
+   text-align: center;
+
+
+
 footer{
    grid-area: footer;
    background-color: var(--blue);
@@ -97,8 +103,9 @@ footer{
 text-align: center;
 }
 
-img{ 
-   border-radius: 30px;
+
+
+
 
 
 
