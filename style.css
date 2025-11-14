@@ -68,7 +68,7 @@ nav{
    grid-area: nav;
    background-color: var(--text-dark);
    margin: 17px;
-   height: 375px;
+   height: 575px;
    padding: 10px;
   border: 50px;
   border-radius: 10px;
@@ -88,8 +88,10 @@ nav a:hover {
 }
 
 main{
-   text-align: center;
-
+   text-align: start;
+   grid-area: main;
+   
+}
 
 
 footer{
