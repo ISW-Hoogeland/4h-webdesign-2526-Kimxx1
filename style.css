@@ -64,6 +64,14 @@ header{
    text-align: center;
    
 }
+
+header img {
+   position: absolute;
+   right: 50px;
+   top: 50px;
+   height: 10px;
+   border-radius: 100px;
+}
 nav{
    grid-area: nav;
    background-color: var(--text-dark);
