@@ -36,7 +36,7 @@
 
 /* add your css here, feel free to use comments and order them logically for better readability */
 :root {
-    --bg-light: #c0c2b2;
+    --bg-light: #a5c0b9;
     --text-dark: #ffffff;
     --font-main: "Amarante", serif;
   --weight: 400;
@@ -94,7 +94,7 @@ nav a {
 }
 
 nav a:hover {
-   color: red;
+   color: #846473;
 }
 
 main{
