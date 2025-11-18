@@ -109,7 +109,7 @@ main{
 
 .hobbies {
       display: flex;
-   gap: 50px;
+   gap: 100px;
 }
 
 .muzieksmaak article{
@@ -118,8 +118,12 @@ main{
 
 .muzieksmaak{
    display: flex;
-   gap: 50px;
+   gap: 100px;
 }
+
+
+
+
 
 
 
