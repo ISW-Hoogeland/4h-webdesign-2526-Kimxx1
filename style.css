@@ -67,19 +67,21 @@ header{
 
 header img {
    position: absolute;
-   right: 50px;
-   top: 50px;
-   height: 10px;
-   border-radius: 100px;
+   right: 75px;
+   top: 40px;
+   height: 60px;
+   border-radius: 200px;
+
 }
 nav{
    grid-area: nav;
    background-color: var(--text-dark);
-   margin: 17px;
+   margin: 10px;
    height: 575px;
    padding: 10px;
-  border: 50px;
+  border: 10px;
   border-radius: 10px;
+  width: 50%;
 }
 
 nav ul{
@@ -98,8 +100,28 @@ nav a:hover {
 main{
    text-align: start;
    grid-area: main;
-   
+
 }
+
+.hobbies article {
+   width: 20%;
+}
+
+.hobbies {
+      display: flex;
+   gap: 50px;
+}
+
+.muzieksmaak article{
+   width: 20%;
+}
+
+.muzieksmaak{
+   display: flex;
+   gap: 50px;
+}
+
+
 
 
 footer{
