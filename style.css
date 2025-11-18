@@ -57,7 +57,7 @@ body{
 }
 header{
    grid-area: header;
-   background-color: var(--blue);
+   background-color: #662a3d;
    color: var(--text-dark);
    margin: 12px;
    border-radius: 10px;
@@ -75,7 +75,7 @@ nav{
 }
 
 nav ul{
-   list-style: none;
+   list-style: circle;
 
 }
 
@@ -102,7 +102,7 @@ footer{
    border: 20px;
    border-radius: 10px;
    color: var(--text-dark);
-text-align: center;
+text-align: end;
 }
 
 
